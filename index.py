@@ -440,6 +440,9 @@ def refreshHeroes():
 #        scroll()
 #        time.sleep(2)
     logger('💪 {} heroes sent to work'.format(hero_clicks))
+
+    time.sleep(5)
+#   sleep time to prevent any server issue
     goToGame()
 
 
